@@ -5,6 +5,8 @@ const ThemeToggle = () => {
   const [isDark, setIsDark] = useState(false);
 
   useEffect(() => {
+    //get defined theme
+
     if (localStorage.getItem('isDark') === 'true') {
       setIsDark(true);
       return;
@@ -16,7 +18,8 @@ const ThemeToggle = () => {
     }
   }, []);
 
-  const setTheme = () => {
+  useEffect(() => {
+    //set theme
     localStorage.setItem('isDark', isDark);
 
     if (isDark) {
@@ -24,24 +27,13 @@ const ThemeToggle = () => {
     } else {
       document.documentElement.classList.remove('dark');
     }
-  };
+  }, [isDark]);
 
   const toggleTheme = checked => {
     setIsDark(checked);
-    setTheme();
   };
 
-  return (
-    <div className="fixed right-8 xl:right-24 top-8 xl:top-12">
-      <DarkModeSwitch
-        checked={isDark}
-        onChange={toggleTheme}
-        size={40}
-        moonColor="black"
-        sunColor="white"
-      />
-    </div>
-  );
+  return <DarkModeSwitch checked={isDark} onChange={toggleTheme} size={36} />;
 };
 
 export default ThemeToggle;

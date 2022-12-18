@@ -1,10 +1,12 @@
 import React from 'react';
-import ThemeToggle from './components/ThemeToggle';
+import Hero from './components/Hero';
+import Header from './components/Header';
 
 const App = () => {
   return (
     <>
-      <ThemeToggle />
+      <Header />
+      <Hero />
     </>
   );
 };

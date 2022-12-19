@@ -9,3 +9,10 @@
     font-family: 'Inter', sans-serif;
   }
 }
+
+@layer components {
+  .skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 100px);
+  }
+}

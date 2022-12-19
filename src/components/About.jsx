@@ -5,9 +5,9 @@ const About = () => {
   return (
     <section
       id="about"
-      className="min-h-screen flex flex-col lg:flex-row justify-center items-сenter gap-4 lg:gap-16"
+      className="flex flex-col lg:flex-row justify-center items-сenter lg:gap-16 mb-32"
     >
-      <div className="mb-6 lg:mt-16 flex items-center justify-center">
+      <div className="lg:mt-16 flex items-center justify-center">
         <Player
           autoplay
           loop
@@ -17,8 +17,8 @@ const About = () => {
         />
       </div>
       <div className="flex flex-col justify-center">
-        <h1 className="text-center text-4xl lg:text-6xl font-medium mb-12">About me</h1>
-        <p className="text-xl lg:text-2xl mx-0 sm:mx-4 lg:mx-16 xl:mx-32">
+        <h1 className="text-center text-3xl lg:text-6xl font-medium mb-6 lg:mb-12">About me</h1>
+        <p className="text-lg lg:text-2xl mx-0 sm:mx-4 lg:mx-16 xl:mx-32">
           I'm currently a Grade 10 student, planning to pursue Computer Science in the future. From
           a young age, I have always been fascinated by the power of technology and how it can be
           used to solve problems and create new opportunities. Now I am dedicated to staying up to

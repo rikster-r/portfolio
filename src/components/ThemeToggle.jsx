@@ -12,7 +12,10 @@ const ThemeToggle = () => {
       return;
     }
 
-    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    if (
+      !localStorage.getItem('isDark') &&
+      window.matchMedia('(prefers-color-scheme: dark)').matches
+    ) {
       setIsDark(true);
       return;
     }

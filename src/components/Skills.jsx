@@ -3,7 +3,7 @@ import Skill from './Skill';
 
 const Skills = () => {
   return (
-    <section id="skills" className="flex flex-col justify-center items-сenter">
+    <section id="skills" className="flex flex-col justify-center items-сenter mb-32">
       <h1 className="text-center text-3xl lg:text-6xl font-medium mb-6 lg:mb-12">Skills</h1>
       <div className="skills-container place-content-center gap-12">
         <Skill title="HTML">

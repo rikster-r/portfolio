@@ -4,7 +4,9 @@ import Project from './Project';
 const Projects = () => {
   return (
     <section id="projects">
-      <h1 className="text-center text-3xl lg:text-6xl font-medium mb-6 lg:mb-12">Projects</h1>
+      <h1 className="text-center text-2xl lg:text-4xl 2xl:text-5xl font-medium mb-6 lg:mb-12">
+        Projects
+      </h1>
       <div className="grid sm:grid-cols-2 xl:grid-cols-4 gap-6">
         <Project
           title="BookBite"

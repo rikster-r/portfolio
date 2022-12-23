@@ -10,7 +10,7 @@ const Project = ({ title, description, imageSource, repo, live }) => {
 
       <div className="px-6 py-4">
         <div className="flex items-center gap-2">
-          <h2 className="mt-2 mr-auto text-2xl font-semibold text-neutral-800dark:text-neutral-200">
+          <h2 className="mt-2 mr-auto text-2xl font-semibold text-neutral-800 dark:text-neutral-200">
             {title}
           </h2>
           <a href={repo}>
@@ -25,7 +25,7 @@ const Project = ({ title, description, imageSource, repo, live }) => {
             </svg>
           </a>
         </div>
-        <p className="mt-2 text-sm text-neutral-600 dark:text-neutral-400">{description}</p>
+        <p className="mt-2 text-neutral-600 dark:text-neutral-400">{description}</p>
       </div>
     </div>
   );

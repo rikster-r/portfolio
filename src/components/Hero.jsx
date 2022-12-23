@@ -13,15 +13,15 @@ const Hero = ({ scrollTo }) => {
             autoplay
             loop
             src="https://assets6.lottiefiles.com/packages/lf20_3rwasyjy.json"
-            className="w-[300px] h-[200px] sm:w-[450px] sm:h-[300px] lg:w-[525px] lg:h-[350px]"
+            className="w-[300px] h-[200px] sm:w-[450px] sm:h-[300px] xl:w-[525px] xl:h-[350px]"
           />
         </div>
         <div className="flex flex-col justify-center">
-          <div className="flex flex-row flex-wrap text-4xl lg:text-6xl font-medium mb-4 gap-1">
+          <div className="flex flex-row flex-wrap text-3xl lg:text-5xl font-medium mb-4 gap-1">
             <span>Hello,</span>
             <span className="whitespace-nowrap">I'm Danial.</span>
           </div>
-          <p className="tracking-tight text-xl lg:text-2xl text-neutral-700 dark:text-neutral-300 mb-4">
+          <p className="tracking-tight text-lg lg:text-xl text-neutral-700 dark:text-neutral-300 mb-4">
             I'm a 16 years old passionate front-end developer.
           </p>
           <a href="https://github.com/rikster-r" className="w-max">

@@ -8,7 +8,7 @@ const Contact = () => {
         Contact Me
       </motion.h1>
       <motion.div
-        className="shadow-md flex flex-col sm:flex-row justify-center items-start sm:items-center gap-12 text-xl sm:rounded-md px-32 py-12 sm:py-16 bg-white dark:bg-gray-800"
+        className="shadow-md flex flex-col sm:flex-row justify-center items-start sm:items-center gap-12 text-lg rounded-md sm:px-32 px-10 py-12 sm:py-16 bg-white dark:bg-gray-800"
         initial={{ y: 150, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true }}

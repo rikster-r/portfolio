@@ -5,18 +5,23 @@ import { motion } from 'framer-motion';
 const Hero = ({ scrollTo }) => {
   return (
     <>
-      <motion.section
+      <section
         id="hero"
         className="flex flex-col lg:flex-row-reverse h-screen justify-center items-center gap-4 lg:gap-20"
       >
-        <div className="mb-6 lg:mb-32">
+        <motion.div
+          className="mb-6 lg:mb-32"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+        >
           <Player
             autoplay
             loop
             src="https://assets6.lottiefiles.com/packages/lf20_3rwasyjy.json"
             className="w-[300px] h-[200px] sm:w-[450px] sm:h-[300px] xl:w-[525px] xl:h-[350px]"
           />
-        </div>
+        </motion.div>
         <motion.div className="flex flex-col justify-center">
           <motion.div
             initial={{ y: 150, opacity: 0 }}
@@ -47,7 +52,7 @@ const Hero = ({ scrollTo }) => {
             </svg>
           </motion.a>
         </motion.div>
-      </motion.section>
+      </section>
       <motion.div
         className="absolute bottom-5 inset-x-0 hover:cursor-pointer"
         onClick={() => scrollTo('#about')}

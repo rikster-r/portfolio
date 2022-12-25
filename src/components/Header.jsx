@@ -2,7 +2,7 @@ import ThemeToggle from './ThemeToggle';
 
 const Header = () => {
   return (
-    <header className="fixed right-8 xl:right-24 top-8 xl:top-12">
+    <header className="fixed right-8 xl:right-24 top-8 xl:top-12 z-10">
       <ThemeToggle />
     </header>
   );

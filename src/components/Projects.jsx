@@ -1,13 +1,24 @@
 import React from 'react';
 import Project from './Project';
+import { motion } from 'framer-motion';
 
 const Projects = () => {
   return (
     <section id="projects" className="flex flex-col justify-center items-сenter mb-32 lg:mb-64">
-      <h1 className="text-center text-2xl lg:text-4xl 2xl:text-5xl font-medium mb-6 lg:mb-12">
+      <motion.h1
+        className="text-center text-2xl lg:text-4xl 2xl:text-5xl font-medium mb-6 lg:mb-12"
+        initial={{ y: 150, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        viewport={{ once: true }}
+      >
         Projects
-      </h1>
-      <div className="grid md:grid-cols-2 xl:grid-cols-4 gap-6 justify-items-center ">
+      </motion.h1>
+      <motion.div
+        className="grid md:grid-cols-2 xl:grid-cols-4 gap-6 justify-items-center"
+        initial={{ y: 150, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        viewport={{ once: true }}
+      >
         <Project
           title="BookBite"
           description="App for storing books in your online library and seeing other's library. Search for books, give ratings, leave notes and track your statistics"
@@ -36,7 +47,7 @@ const Projects = () => {
           repo="https://github.com/rikster-r/cv-application"
           live="https://rikster-r.github.io/cv-application/"
         />
-      </div>
+      </motion.div>
     </section>
   );
 };

@@ -1,12 +1,18 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 
 const Contact = () => {
   return (
     <section id="contact" className="flex flex-col justify-center items-center mb-32">
-      <h1 className="text-center text-2xl lg:text-4xl 2xl:text-5xl font-medium mb-6 lg:mb-12">
+      <motion.h1 className="text-center text-2xl lg:text-4xl 2xl:text-5xl font-medium mb-6 lg:mb-12">
         Contact Me
-      </h1>
-      <div className="shadow-md flex flex-col sm:flex-row justify-center items-start sm:items-center gap-12 text-xl sm:rounded-md px-32 py-12 sm:py-16 bg-white dark:bg-gray-800">
+      </motion.h1>
+      <motion.div
+        className="shadow-md flex flex-col sm:flex-row justify-center items-start sm:items-center gap-12 text-xl sm:rounded-md px-32 py-12 sm:py-16 bg-white dark:bg-gray-800"
+        initial={{ y: 150, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        viewport={{ once: true }}
+      >
         <a href="mailto:danial.partnership@gmail.com" className="flex flex-col gap-2">
           <div className="flex items-center gap-1 w-max bg-green-500 text-neutral-100 px-4 py-1 rounded">
             <svg className="w-7 h-7 fill-current" viewBox="0 0 24 24">
@@ -26,7 +32,7 @@ const Contact = () => {
           </div>
           <p>rikster#4652</p>
         </a>
-      </div>
+      </motion.div>
     </section>
   );
 };

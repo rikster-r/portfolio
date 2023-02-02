@@ -30,8 +30,8 @@ const Projects = () => {
           title="Super Store"
           description="Mockup of an e-commerce shopping site. Browse the shop, add and delete items from cart"
           imageSource="showcase-2"
-          repo="https://github.com/rikster-r/shopping-cart"
-          live="https://rikster-r.github.io/shopping-cart/"
+          repo="https://github.com/rikster-r/super-store"
+          live="https://rikster-r.github.io/super-store"
         />
         <Project
           title="Battleship"

@@ -8,15 +8,10 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 
 const App = () => {
-  const scrollTo = id => {
-    const anchor = document.querySelector(id);
-    anchor.scrollIntoView({ behavior: 'smooth' });
-  };
-
   return (
     <>
-      <Header scrollTo={scrollTo} />
-      <Hero scrollTo={scrollTo} />
+      <Header/>
+      <Hero/>
       <About />
       <Skills />
       <Projects />

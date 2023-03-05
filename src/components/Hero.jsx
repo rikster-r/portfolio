@@ -2,7 +2,7 @@ import React from 'react';
 import { Player } from '@lottiefiles/react-lottie-player';
 import { motion } from 'framer-motion';
 
-const Hero = ({ scrollTo }) => {
+const Hero = () => {
   return (
     <>
       <section
@@ -53,9 +53,9 @@ const Hero = ({ scrollTo }) => {
           </motion.a>
         </motion.div>
       </section>
-      <motion.div
+      <motion.a
         className="absolute bottom-5 inset-x-0 hover:cursor-pointer"
-        onClick={() => scrollTo('#about')}
+        href="#about"
         initial={{ opacity: 0, y: 150 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1.3 }}
@@ -66,7 +66,7 @@ const Hero = ({ scrollTo }) => {
           src="https://assets1.lottiefiles.com/packages/lf20_izb4p8aq.json"
           className="w-20 h-20"
         />
-      </motion.div>
+      </motion.a>
     </>
   );
 };

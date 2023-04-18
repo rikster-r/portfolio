@@ -27,18 +27,18 @@ const Hero = ({ scrollTo }) => {
             initial={{ y: 150, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.3 }}
-            className="flex flex-row flex-wrap text-3xl lg:text-5xl font-medium mb-4 gap-1"
+            className="flex flex-row flex-wrap text-3xl lg:text-5xl font-semibold mb-4 gap-1 "
           >
             <span>Hello,</span>
             <span className="whitespace-nowrap">I'm Danial.</span>
           </motion.div>
           <motion.p
-            className="tracking-tight text-lg lg:text-xl text-neutral-700 dark:text-neutral-300 mb-4"
+            className="tracking-tight text-lg lg:text-2xl mb-4 font-medium"
             initial={{ y: 150, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.4, duration: 0.3 }}
           >
-            I'm a 16 years old passionate front-end developer.
+            I'm a 16 years old passionate fullstack web developer.
           </motion.p>
           <motion.a
             initial={{ opacity: 0 }}

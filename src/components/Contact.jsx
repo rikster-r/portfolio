@@ -4,16 +4,16 @@ import { motion } from 'framer-motion';
 const Contact = () => {
   return (
     <section id="contact" className="flex flex-col justify-center items-center mb-32">
-      <motion.h1 className="text-center text-2xl lg:text-4xl 2xl:text-5xl font-medium mb-6 lg:mb-12">
+      <motion.h2 className="text-center text-2xl lg:text-4xl 2xl:text-5xl font-semibold mb-6 lg:mb-12">
         Contact Me
-      </motion.h1>
+      </motion.h2>
       <motion.div
-        className="shadow-md flex flex-col sm:flex-row justify-center items-start sm:items-center gap-12 text-lg rounded-md sm:px-32 px-10 py-12 sm:py-16 bg-white dark:bg-gray-800"
+        className="shadow-md flex flex-col sm:flex-row justify-center items-start sm:items-center gap-12 text-lg rounded-md sm:px-32 px-10 py-12 sm:py-16 bg-white dark:bg-gray-800 "
         initial={{ y: 150, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true }}
       >
-        <a href="mailto:danial.partnership@gmail.com" className="flex flex-col gap-2">
+        <a href="mailto:danial.partnership@gmail.com" className="flex flex-col gap-2 ">
           <div className="flex items-center gap-1 w-max bg-green-500 text-neutral-100 px-4 py-1 rounded">
             <svg className="w-7 h-7 fill-current" viewBox="0 0 24 24">
               <path d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 2v.511l-8 6.223-8-6.222V6h16zM4 18V9.044l7.386 5.745a.994.994 0 0 0 1.228 0L20 9.044 20.002 18H4z"></path>

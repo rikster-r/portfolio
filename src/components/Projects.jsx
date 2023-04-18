@@ -5,14 +5,14 @@ import { motion } from 'framer-motion';
 const Projects = () => {
   return (
     <section id="projects" className="flex flex-col justify-center items-center mb-32 lg:mb-64">
-      <motion.h1
-        className="text-center text-2xl lg:text-4xl 2xl:text-5xl font-medium mb-6 lg:mb-12"
+      <motion.h2
+        className="text-center text-2xl lg:text-4xl 2xl:text-5xl font-semibold mb-6 lg:mb-12"
         initial={{ y: 150, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true }}
       >
         Projects
-      </motion.h1>
+      </motion.h2>
       <motion.div
         className="grid md:grid-cols-2 gap-6"
         initial={{ y: 150, opacity: 0 }}

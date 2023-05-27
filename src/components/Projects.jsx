@@ -1,10 +1,13 @@
-import React from 'react';
-import Project from './Project';
-import { motion } from 'framer-motion';
+import React from "react";
+import Project from "./Project";
+import { motion } from "framer-motion";
 
 const Projects = () => {
   return (
-    <section id="projects" className="flex flex-col justify-center items-center mb-32 lg:mb-64">
+    <section
+      id="projects"
+      className="flex flex-col justify-center items-center mb-32 lg:mb-64"
+    >
       <motion.h2
         className="text-center text-2xl lg:text-4xl 2xl:text-5xl font-semibold mb-6 lg:mb-12"
         initial={{ y: 150, opacity: 0 }}
@@ -42,10 +45,10 @@ const Projects = () => {
         />
         <Project
           title="Battleship"
-          description="A digital iteration of the timeless strategy game, built using a Test-Driven Development (TDD) method. This approach ensures that the game logic is reliable and effective. Players can strategically place their ships and make their moves, striving to outwit computer"
+          description="A digital iteration of the timeless strategy game. With its robust setup mode capabilities and intelligent computer AI, players can strategically position their ships and execute their moves, aiming to outsmart their opponent"
           imageSource="showcase-3"
-          repo="https://github.com/rikster-r/battleship"
-          live="https://rikster-r.github.io/battleship/"
+          repo="https://github.com/rikster-r/battleship-v2"
+          live="https://battleship-v2.vercel.app/"
         />
       </motion.div>
     </section>

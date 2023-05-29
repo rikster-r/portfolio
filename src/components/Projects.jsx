@@ -1,6 +1,7 @@
 import React from "react";
 import Project from "./Project";
 import { motion } from "framer-motion";
+import SectionTitle from "./SectionTitle";
 
 const Projects = () => {
   return (
@@ -8,14 +9,7 @@ const Projects = () => {
       id="projects"
       className="flex flex-col justify-center items-center mb-32 lg:mb-64"
     >
-      <motion.h2
-        className="text-center text-2xl lg:text-4xl 2xl:text-5xl font-semibold mb-6 lg:mb-12"
-        initial={{ y: 150, opacity: 0 }}
-        whileInView={{ y: 0, opacity: 1 }}
-        viewport={{ once: true }}
-      >
-        Projects
-      </motion.h2>
+      <SectionTitle text="Projects" />
       <motion.div
         className="grid md:grid-cols-2 gap-6"
         initial={{ y: 150, opacity: 0 }}

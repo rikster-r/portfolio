@@ -7,7 +7,7 @@ const Hero = ({ scrollTo }) => {
     <>
       <section
         id="hero"
-        className="flex flex-col lg:flex-row-reverse h-screen justify-center items-center gap-4 lg:gap-20"
+        className="flex flex-col lg:flex-row-reverse h-[100svh] justify-center items-center gap-4 lg:gap-20"
       >
         <motion.div
           className="mb-6 lg:mb-32"
@@ -23,23 +23,23 @@ const Hero = ({ scrollTo }) => {
           />
         </motion.div>
         <motion.div className="flex flex-col justify-center">
-          <motion.div
+          <motion.p
             initial={{ y: 150, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.3 }}
-            className="flex flex-row flex-wrap text-3xl lg:text-5xl font-semibold mb-4 gap-1 "
+            className="flex flex-row flex-wrap text-3xl lg:text-5xl font-semibold mb-4 gap-1"
           >
             <span>Hello,</span>
             <span className="whitespace-nowrap">I'm Danial.</span>
-          </motion.div>
-          <motion.p
+          </motion.p>
+          <motion.h1
             className="tracking-tight text-lg lg:text-2xl mb-4 font-medium"
             initial={{ y: 150, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.4, duration: 0.3 }}
           >
             I'm a 16 years old passionate fullstack web developer.
-          </motion.p>
+          </motion.h1>
           <motion.a
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}

@@ -1,6 +1,6 @@
-import React from 'react';
-import { Player } from '@lottiefiles/react-lottie-player';
-import { motion } from 'framer-motion';
+import React from "react";
+import { Player } from "@lottiefiles/react-lottie-player";
+import { motion } from "framer-motion";
 
 const Hero = ({ scrollTo }) => {
   return (
@@ -45,6 +45,7 @@ const Hero = ({ scrollTo }) => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.8, duration: 0.3 }}
             href="https://github.com/rikster-r"
+            aria-label="My Github"
             className="w-max"
           >
             <svg className="w-10 h-10 fill-current" viewBox="0 0 24 24">
@@ -55,7 +56,7 @@ const Hero = ({ scrollTo }) => {
       </section>
       <motion.div
         className="absolute bottom-5 inset-x-0 hover:cursor-pointer"
-        onClick={() => scrollTo('#about')}
+        onClick={() => scrollTo("#about")}
         initial={{ opacity: 0, y: 150 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1.3 }}

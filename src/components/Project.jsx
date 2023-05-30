@@ -1,12 +1,12 @@
-import React from 'react';
-import useImage from '../hooks/useImage';
+import React from "react";
+import useImage from "../hooks/useImage";
 
 const Project = ({ title, description, imageSource, repo, live }) => {
   const { image } = useImage(imageSource);
 
   return (
-    <div className="max-w-2xl pb-6 overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800">
-      <img className="object-cover w-full" src={image} alt={title} />
+    <div className="flex flex-col max-w-2xl pb-6 overflow-hidden bg-white rounded-lg shadow-md dark:bg-gray-800">
+      <img className="object-cover w-full h-full" src={image} alt={title} />
 
       <div className="px-6 py-4">
         <div className="flex items-center gap-2">
@@ -25,7 +25,9 @@ const Project = ({ title, description, imageSource, repo, live }) => {
             </svg>
           </a>
         </div>
-        <p className="mt-2 text-neutral-700 dark:text-neutral-300 2xl:text-lg">{description}</p>
+        <p className="mt-2 text-neutral-700 dark:text-neutral-300 2xl:text-lg">
+          {description}
+        </p>
       </div>
     </div>
   );

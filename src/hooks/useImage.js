@@ -1,6 +1,6 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from "react";
 
-const useImage = fileName => {
+const useImage = (fileName) => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [image, setImage] = useState(null);
@@ -8,7 +8,10 @@ const useImage = fileName => {
   useEffect(() => {
     const fetchImage = async () => {
       try {
-        const response = await import(`../assets/${fileName}.jpg`);
+        const response =
+          window.innerWidth < 768
+            ? await import(`../assets/${fileName}-small.jpg`)
+            : await import(`../assets/${fileName}.jpg`);
         setImage(response.default);
       } catch (err) {
         setError(err);

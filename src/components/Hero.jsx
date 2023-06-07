@@ -50,7 +50,8 @@ const Hero = ({ scrollTo }) => {
             className="tracking-tight text-lg lg:text-2xl mb-4 font-medium"
             variants={variants}
           >
-            I'm a 16 years old passionate fullstack web developer.
+            I'm a fullstack web developer with a love for amazing digital
+            experience.
           </motion.h1>
           <motion.a
             className="w-max"

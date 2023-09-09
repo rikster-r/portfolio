@@ -10,26 +10,8 @@
     scrollbar-width: thin;
   }
 
-  /* Firefox */
   html.dark {
-    scrollbar-color: #404040 #262626;
-  }
-
-  /* Chrome, Safari */
-  html::-webkit-scrollbar {
-    width: 12px;
-  }
-
-  html::-webkit-scrollbar-thumb {
-    background-color: #a3a3a3;
-  }
-
-  html.dark::-webkit-scrollbar-track {
-    background: #262626;
-  }
-
-  html.dark::-webkit-scrollbar-thumb {
-    background-color: #404040;
+    color-scheme: dark;
   }
 }
 

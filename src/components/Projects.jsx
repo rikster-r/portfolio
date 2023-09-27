@@ -32,10 +32,10 @@ const Projects = () => {
         />
         <Project
           title="Super Store"
-          description="Mockup of an e-commerce shopping site. It features a clean and modern design with a user-friendly interface, making it easy for customers to navigate and purchase products"
+          description="Fake e-commerce shop built with Next.js. It features a full SEO optimization and clean modern design with a user-friendly interface, making it easy for customers to navigate and purchase products"
           imageSource="showcase-2"
           repo="https://github.com/rikster-r/super-store"
-          live="https://rikster-r.github.io/super-store"
+          live="https://superstore-shop.vercel.app/"
         />
         <Project
           title="Battleship"

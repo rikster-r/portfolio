@@ -31,15 +31,7 @@ const About = () => {
           whileInView={{ y: 0, opacity: 1 }}
           viewport={{ once: true }}
         >
-          I'm currently a Grade 10 student, planning to pursue Computer Science
-          in the future. From a young age, I have always been fascinated by the
-          power of technology and how it can be used to solve problems and
-          create new opportunities. I've worked with a variety of programming
-          languages, including PascalABC, Python, C++. Now I am dedicated to
-          learning more about web development, staying up to date with the
-          latest technologies and best practices, and I am always looking for
-          ways to expand my knowledge and skills. I am excited to see where my
-          career in web development takes me in the future
+          I'm a full-stack web developer who enjoys turning ideas into functional, user-friendly websites. I work with both front-end and back-end technologies to create projects that look good and work smoothly. I like to keep things simple and focus on delivering what users really need. I’m always looking to improve my skills and take on interesting projects. Let’s connect if you’d like to work together.
         </motion.p>
       </div>
     </section>

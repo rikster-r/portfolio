@@ -10,15 +10,12 @@ const Contact = () => {
     >
       <SectionTitle text="Contact Me" />
       <motion.div
-        className="w-full max-w-2xl rounded-md sm:px-32 px-8 py-12 sm:py-16 flex flex-col sm:flex-row justify-center items-start sm:items-center shadow-md gap-12 bg-white dark:bg-gray-800 text-base sm:text-lg"
+        className="w-full max-w-2xl rounded-md px-8 py-12 sm:py-16 flex flex-col sm:flex-row justify-center items-start sm:items-center shadow-md gap-12 bg-white dark:bg-gray-800 text-base sm:text-lg sm:justify-evenly"
         initial={{ y: 150, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true }}
       >
-        <a
-          href="mailto:dseit09@gmail.com"
-          className="flex flex-col gap-2"
-        >
+        <a href="mailto:dseit09@gmail.com" className="flex flex-col gap-2">
           <div className="flex items-center gap-2 w-max bg-green-500 text-neutral-100 px-4 py-1 rounded">
             <svg
               xmlns="http://www.w3.org/2000/svg"

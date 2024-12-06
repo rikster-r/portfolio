@@ -16,7 +16,7 @@ const Contact = () => {
         viewport={{ once: true }}
       >
         <a
-          href="mailto:danial.partnership@gmail.com"
+          href="mailto:dseit09@gmail.com"
           className="flex flex-col gap-2"
         >
           <div className="flex items-center gap-2 w-max bg-green-500 text-neutral-100 px-4 py-1 rounded">
@@ -29,10 +29,10 @@ const Contact = () => {
             </svg>
             <span className="font-medium upper">Mail</span>
           </div>
-          <p>danial.partnership@gmail.com</p>
+          <p>dseit09@gmail.com</p>
         </a>
 
-        <p className="flex flex-col gap-2">
+        <a href="https://t.me/riksterr" className="flex flex-col gap-2">
           <div className="flex items-center gap-2 w-max bg-[#37aee2] text-neutral-100 px-4 py-1 rounded">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -44,7 +44,7 @@ const Contact = () => {
             <span className="font-medium upper">Telegram</span>
           </div>
           <p>@riksterr</p>
-        </p>
+        </a>
       </motion.div>
     </section>
   );

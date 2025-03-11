@@ -2,13 +2,16 @@ import React from 'react';
 import Skill from './Skill';
 import { motion } from 'framer-motion';
 import SectionTitle from './SectionTitle';
+import { useLanguage } from '../context/LanguageContext';
 
 const Skills = () => {
+  const { text } = useLanguage();
+
   return (
     <section id="skills" className=" mb-32 lg:mb-64">
       <div className="w-full mx-auto max-w-[1800px]">
         <div className="flex flex-col justify-center"></div>
-        <SectionTitle text="Skills" />
+        <SectionTitle text={text.skills.title} />
         <motion.div
           className="grid skills-container md:flex md:flex-wrap justify-items-center gap-10 lg:gap-14 justify-center"
           initial={{ y: 150, opacity: 0 }}

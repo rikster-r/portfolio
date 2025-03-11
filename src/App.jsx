@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { LanguageProvider } from './context/LanguageContext';
+
 import Hero from './components/Hero';
 import Header from './components/Header';
 import About from './components/About';
@@ -14,14 +16,14 @@ const App = () => {
   };
 
   return (
-    <>
+    <LanguageProvider>
       <Header scrollTo={scrollTo} />
       <Hero scrollTo={scrollTo} />
       <About />
       <Skills />
       <Projects />
       <Contact />
-    </>
+    </LanguageProvider>
   );
 };
 

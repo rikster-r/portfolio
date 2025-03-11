@@ -1,0 +1,144 @@
+{
+  "en": {
+    "header": {
+      "languageToggle": "EN"
+    },
+    "hero": {
+      "greeting": "Hello,",
+      "title": "I'm Danial",
+      "subtitle": "I'm a fullstack web developer with a love for amazing digital experience."
+    },
+    "about": {
+      "title": "About Me",
+      "description1": "I’m a full-stack web developer who enjoys turning ideas into functional user-friendly websites. I work with front-end and back-end technologies to create projects that look great and work smoothly. I like keeping things simple and making sure users get exactly what they need.",
+      "description2": "Outside of work, I stay active at the gym, express my creativity through style, and unwind by singing. These hobbies keep me inspired, disciplined, and ready to bring fresh ideas to every project I tackle. Let’s connect and build something great together!"
+    },
+    "skills": {
+      "title": "Skills"
+    },
+    "projects": {
+      "title": "Projects",
+      "projects": [
+        {
+          "title": "FieldMinde",
+          "description": "A fully SEO-optimized landing page crafted for a drone startup, built with Next.js and Tailwind CSS. It features slick responsive design, lightning-fast performance and full compliance with SEO standards.",
+          "imageSource": "fieldmind",
+          "repo": "https://github.com/rikster-r/fieldmind",
+          "live": "https://fieldmind.vercel.app"
+        },
+        {
+          "title": "Frameflow",
+          "description": "A fullstack Instagram clone built with Next.js and Express. It replicates the functionality and design of Instagram, including user registration, profile pages, a feed, photo uploading, search functionality, and modern UI/UX design principles.",
+          "imageSource": "showcase-4",
+          "repo": "https://github.com/rikster-r/frameflow-frontend",
+          "live": "https://frameflow.vercel.app/"
+        },
+        {
+          "title": "BookBite",
+          "description": "A CRUD app built with Firebase and designed for book enthusiasts. Search for anything you've read or want to read, give ratings, leave notes and track your statistics with ease. An efficient and personalized approach to library management.",
+          "imageSource": "showcase-1",
+          "repo": "https://github.com/rikster-r/BookBite",
+          "live": "https://library-bf484.web.app/"
+        },
+        {
+          "title": "Super Store",
+          "description": "Fake e-commerce shop built with Next.js. It features a full SEO optimization and clean modern design with a user-friendly interface, making it easy for customers to navigate and purchase products.",
+          "imageSource": "showcase-2",
+          "repo": "https://github.com/rikster-r/super-store",
+          "live": "https://superstore-shop.vercel.app/"
+        },
+        {
+          "title": "Battleship",
+          "description": "A digital iteration of the timeless strategy game. With its robust setup mode capabilities and intelligent computer AI, players can strategically position their ships and execute their moves, aiming to outsmart their opponent.",
+          "imageSource": "showcase-3",
+          "repo": "https://github.com/rikster-r/battleship-v2",
+          "live": "https://battleship-v2.vercel.app/"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact Me",
+      "email": {
+        "label": "Mail",
+        "address": "dseit09@gmail.com",
+        "link": "mailto:dseit09@gmail.com"
+      },
+      "telegram": {
+        "label": "Telegram",
+        "username": "@riksterr",
+        "link": "https://t.me/riksterr"
+      }
+    }
+  },
+  "ru": {
+    "header": {
+      "languageToggle": "RU"
+    },
+    "hero": {
+      "greeting": "Привет,",
+      "title": "Я Даниал",
+      "subtitle": "Я fullstack веб-разработчик, увлеченный созданием потрясающих цифровых решений."
+    },
+    "about": {
+      "title": "Обо мне",
+      "description1": "Я full-stack веб-разработчик, который любит превращать идеи в удобные и функциональные сайты. Работаю с фронтендом и бэкендом, создавая проекты, которые выглядят отлично и работают без сбоев. Люблю простоту и стараюсь, чтобы пользователи получали именно то, что им нужно.",
+      "description2": "Помимо работы, я активно занимаюсь в зале, выражаю свою креативность через стиль и расслабляюсь, занимаясь пением. Эти увлечения вдохновляют меня, развивают дисциплину и помогают привносить свежие идеи в каждый проект. Давайте свяжемся и создадим что-то классное вместе!"
+    },
+    "skills": {
+      "title": "Навыки"
+    },
+    "projects": {
+      "title": "Проекты",
+      "projects": [
+        {
+          "title": "FieldMinde",
+          "description": "Полностью SEO-оптимизированная лендинг-страница для стартапа, занимающегося дронами, созданная с использованием Next.js и Tailwind CSS. Обладает стильным адаптивным дизайном, высокой скоростью загрузки и полной совместимостью со стандартами SEO.",
+          "imageSource": "fieldmind",
+          "repo": "https://github.com/rikster-r/fieldmind",
+          "live": "https://fieldmind.vercel.app"
+        },
+        {
+          "title": "Frameflow",
+          "description": "Полноценный клон Instagram, созданный на Next.js и Express. Включает регистрацию, профили пользователей, ленту, загрузку фото, поиск и современный дизайн.",
+          "imageSource": "showcase-4",
+          "repo": "https://github.com/rikster-r/frameflow-frontend",
+          "live": "https://frameflow.vercel.app/"
+        },
+        {
+          "title": "BookBite",
+          "description": "CRUD-приложение на Firebase для любителей книг. Позволяет искать книги, ставить оценки, оставлять заметки и отслеживать свою статистику.",
+          "imageSource": "showcase-1",
+          "repo": "https://github.com/rikster-r/BookBite",
+          "live": "https://library-bf484.web.app/"
+        },
+        {
+          "title": "Super Store",
+          "description": "Фейковый интернет-магазин на Next.js с SEO-оптимизацией и удобным интерфейсом для покупок.",
+          "imageSource": "showcase-2",
+          "repo": "https://github.com/rikster-r/super-store",
+          "live": "https://superstore-shop.vercel.app/"
+        },
+        {
+          "title": "Battleship",
+          "description": "Цифровая версия классической стратегической игры. Умный ИИ и расширенные возможности настройки позволяют игрокам продумывать стратегии и побеждать соперников.",
+          "imageSource": "showcase-3",
+          "repo": "https://github.com/rikster-r/battleship-v2",
+          "live": "https://battleship-v2.vercel.app/"
+        }
+      ]
+    },
+    "contact": {
+      "title": "Свяжитесь со мной",
+      "email": {
+        "label": "Почта",
+        "address": "dseit09@gmail.com",
+        "link": "mailto:dseit09@gmail.com"
+      },
+      "telegram": {
+        "label": "Телеграм",
+        "username": "@riksterr",
+        "link": "https://t.me/riksterr"
+      }
+    }
+  }
+}

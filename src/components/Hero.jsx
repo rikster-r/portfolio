@@ -1,6 +1,7 @@
 import React from 'react';
 import { Player } from '@lottiefiles/react-lottie-player';
 import { motion } from 'framer-motion';
+import { useLanguage } from '../context/LanguageContext';
 
 const variants = {
   initial: { opacity: 0, y: 50 },
@@ -14,6 +15,8 @@ const variants = {
 };
 
 const Hero = ({ scrollTo }) => {
+  const { text } = useLanguage();
+
   return (
     <>
       <section
@@ -45,15 +48,14 @@ const Hero = ({ scrollTo }) => {
                 className="flex flex-row flex-wrap text-3xl lg:text-5xl font-semibold mb-4 gap-1"
                 variants={variants}
               >
-                <span>Hello,</span>
-                <span className="whitespace-nowrap">I'm Danial.</span>
+                <span>{text.hero.greeting}</span>
+                <span className="whitespace-nowrap">{text.hero.title}</span>
               </motion.p>
               <motion.h1
                 className="tracking-tight text-lg lg:text-2xl mb-4 font-medium"
                 variants={variants}
               >
-                I'm a fullstack web developer with a love for amazing digital
-                experience.
+                {text.hero.subtitle}
               </motion.h1>
               <motion.a
                 className="w-max"
